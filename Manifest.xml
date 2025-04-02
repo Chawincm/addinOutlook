@@ -1,0 +1,29 @@
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:type="MailApp">
+  <Id>3cf2889d-5b28-4862-8d96-7410062e52ab</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>CHR</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Help to Approve" />
+  <Description DefaultValue="Forward email to admin with one click." />
+  <IconUrl DefaultValue="https://yourdomain.com/icon.png" />
+  <SupportUrl DefaultValue="https://yourdomain.com/support" />
+  <Hosts>
+    <Host Name="Mailbox" />
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="Mailbox" />
+    </Sets>
+  </Requirements>
+  <FormSettings>
+    <Form xsi:type="ItemRead">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://yourdomain.com/taskpane.html" />
+        <RequestedHeight>250</RequestedHeight>
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
+  <Permissions>ReadWriteMailbox</Permissions>
+</OfficeApp>
