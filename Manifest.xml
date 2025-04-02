@@ -1,8 +1,8 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
-             xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-             xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
-             xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
-             xsi:type="MailApp">
+           xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
+           xsi:type="MailApp">
   <Id>3cf2889d-5b28-4862-8d96-7410062e52ab</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>CHR</ProviderName>
@@ -28,6 +28,11 @@
       </DesktopSettings>
     </Form>
   </FormSettings>
+  <Permissions>ReadWriteMailbox</Permissions>
+  <Rule xsi:type="RuleCollection" Mode="Include">
+    <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
+  </Rule>
+</OfficeApp>
   <Permissions>ReadWriteMailbox</Permissions>
   <Rule xsi:type="RuleCollection" Mode="Include">
     <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
