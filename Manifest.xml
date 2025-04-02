@@ -1,8 +1,4 @@
-<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
-             xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-             xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
-             xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0"
-             xsi:type="MailApp">
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1">
   <Id>3cf2889d-5b28-4862-8d96-7410062e52ab</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>CHR</ProviderName>
