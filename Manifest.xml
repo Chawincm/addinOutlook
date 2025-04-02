@@ -20,7 +20,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://yourdomain.com/taskpane.html" />
+        <SourceLocation DefaultValue="https://github.com/Chawincm/addinOutlook/blob/40cdd6414c41a650393565643b8889e187d8e33c/taskpane.html" />
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
