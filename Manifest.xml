@@ -13,7 +13,9 @@
   <HighResolutionIconUrl DefaultValue="https://github.com/Chawincm/addinOutlook/blob/0797a1f7d5e046bbdd4f96155c23c19f94372df9/8398137.png" />
   <SupportUrl DefaultValue="https://yourdomain.com/support" />
 
- >
+  <Hosts>
+    <Host Name="Mailbox" />
+  </Hosts>
   <Requirements>
     <Sets DefaultMinVersion="1.1">
       <Set Name="Mailbox" />
@@ -29,11 +31,6 @@
     </Form>
   </FormSettings>
 
-  <Permissions>ReadWriteMailbox</Permissions>
-  <Rule xsi:type="RuleCollection" Mode="Include">
-    <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
-  </Rule>
-</OfficeApp>
   <Permissions>ReadWriteMailbox</Permissions>
   <Rule xsi:type="RuleCollection" Mode="Include">
     <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
