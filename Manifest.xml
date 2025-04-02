@@ -27,7 +27,6 @@
     </Form>
   </FormSettings>
   <Permissions>ReadWriteMailbox</Permissions>
-  <Rule xsi:type="RuleCollection" Mode="Include">
-    <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
+  xsi:type="ItemIs" ItemType="Message" FormType="Read" />
   </Rule>
 </OfficeApp>
