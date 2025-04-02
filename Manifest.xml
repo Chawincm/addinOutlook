@@ -31,7 +31,7 @@
     </Form>
   </FormSettings>
 
- WriteMailbox</Permissions>
+ <Permissions>WriteMailbox</Permissions>
   <Rule xsi:type="RuleCollection" Mode="Include">
     <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
   </Rule>
