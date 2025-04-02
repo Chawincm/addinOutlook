@@ -23,10 +23,8 @@
       <DesktopSettings>
         <SourceLocation DefaultValue="https://github.com/Chawincm/addinOutlook/blob/40cdd6414c41a650393565643b8889e187d8e33c/taskpane.html" />
         <RequestedHeight>250</RequestedHeight>
-      </DesktopSettings>
-    </Form>
-  </FormSettings>
-  <Permissions>ReadWriteMailbox</Permissions>
+      </DesktopSettings <Permissions>ReadWriteMailbox</Permissions>
   <Rule xsi:type="RuleCollection">
     <Rule xsi:type="ItemIs" ItemType="Message" FormType="Read" />
   </Rule>
+</OfficeApp>
